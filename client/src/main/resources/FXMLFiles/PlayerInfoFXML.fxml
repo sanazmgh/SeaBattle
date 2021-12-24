@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="33.0" prefWidth="613.0" style="-fx-border-color: #63879c; -fx-background-color: #28363e;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.scoreBoard.PlayerInfoFXMLController">
+   <children>
+      <Label fx:id="usernameLabel" layoutX="12.0" layoutY="8.0" prefHeight="17.0" prefWidth="142.0" text="username" textFill="#63879c" />
+      <Label fx:id="statusLabel" alignment="CENTER" layoutX="246.0" layoutY="8.0" prefHeight="17.0" prefWidth="121.0" text="status" textFill="#63879c" />
+      <Label fx:id="scoreLabel" alignment="CENTER_RIGHT" layoutX="481.0" layoutY="8.0" prefHeight="17.0" prefWidth="121.0" text="score" textFill="#63879c" />
+   </children>
+</Pane>
